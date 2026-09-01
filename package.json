@@ -1,7 +1,7 @@
 {
   "name": "smart-pivot-table",
   "type": "module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "license": "Apache-2.0",
   "packageManager": "pnpm@10.33.0",
@@ -15,6 +15,7 @@
     "test": "pnpm --filter @smartv/pivot-core test && pnpm --filter @smartv/pivot-chart test"
   },
   "pnpm": {
+    "strictPeerDependencies": false,
     "onlyBuiltDependencies": ["esbuild"]
   }
 }
