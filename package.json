@@ -1,0 +1,21 @@
+{
+  "name": "smart-pivot-table",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "pnpm --filter smart-pivot-table-playground dev",
+    "build": "pnpm --filter \"./packages/**\" -r run build",
+    "type-check": "pnpm --filter \"./packages/**\" -r run type-check",
+    "test": "pnpm --filter @smart/pivot-core test && pnpm --filter @smart/pivot-chart test",
+    "publish:only": "pnpm --filter @smart/pivot-core publish:only && pnpm --filter @smart/pivot-vue publish:only && pnpm --filter @smart/pivot-chart publish:only && pnpm --filter @smart/pivot-univer publish:only && pnpm --filter @smart/pivot-table publish:only"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  }
+}

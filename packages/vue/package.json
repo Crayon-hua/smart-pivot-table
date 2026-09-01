@@ -1,0 +1,66 @@
+{
+  "name": "@smart/pivot-vue",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Vue 3 field panel for @smart/pivot-core.",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/Crayon-hua/smart-pivot-table",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crayon-hua/smart-pivot-table.git",
+    "directory": "packages/vue"
+  },
+  "bugs": {
+    "url": "https://github.com/Crayon-hua/smart-pivot-table/issues"
+  },
+  "keywords": ["pivot", "vue", "vue3", "pivot-table"],
+  "sideEffects": ["**/*.css", "**/*.vue"],
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "files": ["LICENSE", "dist"],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+      ".": {
+        "types": "./dist/index.d.ts",
+        "import": "./dist/index.js"
+      },
+      "./style.css": "./dist/style.css"
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "type-check": "vue-tsc --noEmit -p tsconfig.json",
+    "prepublishOnly": "pnpm type-check && pnpm build",
+    "publish:only": "pnpm publish --access public --no-git-checks --no-provenance --registry=https://registry.npmjs.org"
+  },
+  "dependencies": {
+    "@smart/pivot-core": "workspace:*"
+  },
+  "peerDependencies": {
+    "pinia": "^3.0.0",
+    "vue": "^3.3.0"
+  },
+  "peerDependenciesMeta": {
+    "pinia": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "pinia": "^3.0.4",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.12",
+    "vite-plugin-dts": "^4.5.4",
+    "vite-plugin-lib-inject-css": "^2.2.2",
+    "vue": "^3.5.41",
+    "vue-tsc": "^3.3.11"
+  }
+}
