@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import type { PivotFieldArea } from '@smart/pivot-core'
+import type { PivotFieldArea } from '@smartv/pivot-core'
 import { readDragPayload, writeDragPayload } from './drag'
 import PivotFieldItem from './PivotFieldItem.vue'
 

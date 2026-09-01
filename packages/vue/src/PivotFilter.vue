@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import { displayValue, uniqueFieldValues, type PivotFilter } from '@smart/pivot-core'
+import { displayValue, uniqueFieldValues, type PivotFilter } from '@smartv/pivot-core'
 
 const props = defineProps<{
   field: string

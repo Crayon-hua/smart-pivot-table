@@ -6,8 +6,8 @@ import {
   UniverInstanceType,
   type ICommand,
 } from '@univerjs/core'
-import { PivotStore } from '@smart/pivot-core'
-import { createPivotIssue } from '@smart/pivot-core'
+import { PivotStore } from '@smartv/pivot-core'
+import { createPivotIssue } from '@smartv/pivot-core'
 import { UniverDataAdapter } from './UniverDataAdapter'
 import { UniverPivotRenderer } from './UniverPivotRenderer'
 import { readActiveSource } from './UniverRangeReader'

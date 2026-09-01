@@ -22,7 +22,7 @@ import {
   PivotChart,
   UniverPivotPlugin,
   createPivotUniverSession,
-} from '@smart/pivot-table'
+} from '@smartv/pivot-table'
 ```
 
 Univer's sheet UI is React. The host app still needs `react`, `react-dom`, and `rxjs` as Univer peers. There is no Vue edition of `@univerjs/presets`.
@@ -31,11 +31,11 @@ Univer's sheet UI is React. The host app still needs `react`, `react-dom`, and `
 
 | Package | Role |
 | --- | --- |
-| [`@smart/pivot-core`](./packages/core) | Engine: aggregate, filter, group, layout. No Vue / Univer. |
-| [`@smart/pivot-vue`](./packages/vue) | Vue 3 field panel. |
-| [`@smart/pivot-chart`](./packages/chart) | ECharts adapter + Vue chart. |
-| [`@smart/pivot-univer`](./packages/univer) | Univer OSS range reader / sheet writer / commands. |
-| [`@smart/pivot-table`](./packages/pivot-table) | Umbrella re-export. |
+| [`@smartv/pivot-core`](./packages/core) | Engine: aggregate, filter, group, layout. No Vue / Univer. |
+| [`@smartv/pivot-vue`](./packages/vue) | Vue 3 field panel. |
+| [`@smartv/pivot-chart`](./packages/chart) | ECharts adapter + Vue chart. |
+| [`@smartv/pivot-univer`](./packages/univer) | Univer OSS range reader / sheet writer / commands. |
+| [`@smartv/pivot-table`](./packages/pivot-table) | Umbrella re-export. |
 
 ## Local development
 
@@ -49,7 +49,7 @@ pnpm type-check
 pnpm build
 ```
 
-First npm publish (manual): see [docs/npm-first-publish.md](./docs/npm-first-publish.md).
+Publish: set the same `version` in every `packages/*/package.json`, commit, then tag and push (example `v0.1.1`). The `Publish npm` workflow runs on `v*` tags.
 
 ## License
 

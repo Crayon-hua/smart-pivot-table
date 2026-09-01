@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import * as echarts from 'echarts'
-import type { PivotChartType, PivotResult } from '@smart/pivot-core'
+import type { PivotChartType, PivotResult } from '@smartv/pivot-core'
 import { PivotChartEngine } from './PivotChartEngine'
-import { createPivotIssue, reportPivotIssue } from '@smart/pivot-core'
+import { createPivotIssue, reportPivotIssue } from '@smartv/pivot-core'
 
 const props = defineProps<{
   result: PivotResult | null

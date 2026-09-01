@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { PivotChartAdapter } from './PivotChartAdapter'
-import { createDefaultPivotConfig, type PivotField } from '@smart/pivot-core'
-import { PivotEngine } from '@smart/pivot-core'
+import { createDefaultPivotConfig, type PivotField } from '@smartv/pivot-core'
+import { PivotEngine } from '@smartv/pivot-core'
 
 const region: PivotField = { id: 'field:地区', name: '地区', type: 'string' }
 const product: PivotField = { id: 'field:产品', name: '产品', type: 'string' }

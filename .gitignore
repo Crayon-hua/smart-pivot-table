@@ -25,3 +25,7 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
+
+# Keep first-publish helpers on this machine only
+scripts/publish-first.ps1
+docs/npm-first-publish.md

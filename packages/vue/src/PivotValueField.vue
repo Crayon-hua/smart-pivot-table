@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
-import { AGGREGATION_LABELS, type PivotAggregation, type PivotValue } from '@smart/pivot-core'
+import { AGGREGATION_LABELS, type PivotAggregation, type PivotValue } from '@smartv/pivot-core'
 
 const props = defineProps<{
   value: PivotValue

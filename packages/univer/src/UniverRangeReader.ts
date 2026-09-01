@@ -1,4 +1,4 @@
-import { createPivotIssue, reportPivotIssue, type PivotIssue, type PivotSourceRange } from '@smart/pivot-core'
+import { createPivotIssue, reportPivotIssue, type PivotIssue, type PivotSourceRange } from '@smartv/pivot-core'
 import type { UniverFacadeLike, UniverRangeLike, UniverSheetLike, UniverWorkbookLike } from './UniverTypes'
 
 export function getWorkbook(api: UniverFacadeLike): UniverWorkbookLike | null {

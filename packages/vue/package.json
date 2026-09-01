@@ -1,8 +1,8 @@
 {
-  "name": "@smart/pivot-vue",
+  "name": "@smartv/pivot-vue",
   "type": "module",
-  "version": "0.1.0",
-  "description": "Vue 3 field panel for @smart/pivot-core.",
+  "version": "0.1.1",
+  "description": "Vue 3 field panel for @smartv/pivot-core.",
   "license": "Apache-2.0",
   "homepage": "https://github.com/Crayon-hua/smart-pivot-table",
   "repository": {
@@ -37,11 +37,10 @@
   "scripts": {
     "build": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.json",
-    "prepublishOnly": "pnpm type-check && pnpm build",
-    "publish:only": "pnpm publish --access public --no-git-checks --no-provenance --registry=https://registry.npmjs.org"
+    "prepublishOnly": "pnpm type-check && pnpm build"
   },
   "dependencies": {
-    "@smart/pivot-core": "workspace:*"
+    "@smartv/pivot-core": "workspace:*"
   },
   "peerDependencies": {
     "pinia": "^3.0.0",

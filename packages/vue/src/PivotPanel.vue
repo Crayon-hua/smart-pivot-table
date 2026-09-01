@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, onUnmounted, ref } from 'vue'
-import { AGGREGATION_LABELS, type PivotField, type PivotFieldArea } from '@smart/pivot-core'
-import type { PivotStore } from '@smart/pivot-core'
+import { AGGREGATION_LABELS, type PivotField, type PivotFieldArea } from '@smartv/pivot-core'
+import type { PivotStore } from '@smartv/pivot-core'
 import type { PivotDragPayload } from './drag'
 import PivotFieldAreaView from './PivotFieldArea.vue'
 import PivotFieldList from './PivotFieldList.vue'

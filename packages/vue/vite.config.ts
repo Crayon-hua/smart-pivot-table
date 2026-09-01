@@ -7,7 +7,7 @@ import { libInjectCss } from 'vite-plugin-lib-inject-css'
 
 const root = dirname(fileURLToPath(import.meta.url))
 
-const externals = ['vue', 'pinia', '@smart/pivot-core']
+const externals = ['vue', 'pinia', '@smartv/pivot-core']
 
 export default defineConfig({
   plugins: [

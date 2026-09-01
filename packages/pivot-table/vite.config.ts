@@ -10,10 +10,10 @@ const externals = [
   'pinia',
   'echarts',
   '@univerjs/core',
-  '@smart/pivot-core',
-  '@smart/pivot-vue',
-  '@smart/pivot-chart',
-  '@smart/pivot-univer',
+  '@smartv/pivot-core',
+  '@smartv/pivot-vue',
+  '@smartv/pivot-chart',
+  '@smartv/pivot-univer',
 ]
 
 export default defineConfig({

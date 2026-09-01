@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 import { computed, ref } from 'vue'
-import { PivotStore } from '@smart/pivot-core'
-import type { PivotStoreSnapshot } from '@smart/pivot-core'
+import { PivotStore } from '@smartv/pivot-core'
+import type { PivotStoreSnapshot } from '@smartv/pivot-core'
 
 export const usePivotStore = defineStore('smart-pivot', () => {
   const store = new PivotStore()

@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@smart/pivot-table": "workspace:*",
+    "@smartv/pivot-table": "workspace:*",
     "@univerjs/core": "0.15.0",
     "@univerjs/preset-sheets-core": "0.15.0",
     "@univerjs/presets": "0.15.0",

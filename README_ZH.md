@@ -17,13 +17,13 @@ pnpm dev
 
 | 包 | 作用 |
 | --- | --- |
-| `@smart/pivot-core` | 透视引擎 |
-| `@smart/pivot-vue` | Vue 3 字段面板 |
-| `@smart/pivot-chart` | ECharts 透视图 |
-| `@smart/pivot-univer` | Univer OSS 读写与命令 |
-| `@smart/pivot-table` | 聚合导出 |
+| `@smartv/pivot-core` | 透视引擎 |
+| `@smartv/pivot-vue` | Vue 3 字段面板 |
+| `@smartv/pivot-chart` | ECharts 透视图 |
+| `@smartv/pivot-univer` | Univer OSS 读写与命令 |
+| `@smartv/pivot-table` | 聚合导出 |
 
-第一次发 npm：见 [docs/npm-first-publish.md](./docs/npm-first-publish.md)。
+发版：五个 `packages/*/package.json` 的 `version` 改成同一个数，提交后打 `v*` tag 并推送（例如 `git tag v0.1.1 && git push origin v0.1.1`），由 GitHub Actions `Publish npm` 发布。
 
 ## License
 

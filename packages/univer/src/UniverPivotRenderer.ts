@@ -4,7 +4,7 @@ import {
   formatPivotNumber,
   reportPivotIssue,
   type PivotResult,
-} from '@smart/pivot-core'
+} from '@smartv/pivot-core'
 import { getSheetName, getWorkbook } from './UniverRangeReader'
 import type { UniverFacadeLike, UniverPivotOutputTarget, UniverSheetLike } from './UniverTypes'
 

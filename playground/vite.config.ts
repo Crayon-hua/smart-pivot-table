@@ -9,11 +9,11 @@ export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: {
-      '@smart/pivot-table': resolve(root, '../packages/pivot-table/src/index.ts'),
-      '@smart/pivot-core': resolve(root, '../packages/core/src/index.ts'),
-      '@smart/pivot-vue': resolve(root, '../packages/vue/src/index.ts'),
-      '@smart/pivot-chart': resolve(root, '../packages/chart/src/index.ts'),
-      '@smart/pivot-univer': resolve(root, '../packages/univer/src/index.ts'),
+      '@smartv/pivot-table': resolve(root, '../packages/pivot-table/src/index.ts'),
+      '@smartv/pivot-core': resolve(root, '../packages/core/src/index.ts'),
+      '@smartv/pivot-vue': resolve(root, '../packages/vue/src/index.ts'),
+      '@smartv/pivot-chart': resolve(root, '../packages/chart/src/index.ts'),
+      '@smartv/pivot-univer': resolve(root, '../packages/univer/src/index.ts'),
     },
     dedupe: ['vue'],
   },

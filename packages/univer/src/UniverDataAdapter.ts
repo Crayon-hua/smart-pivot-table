@@ -1,4 +1,4 @@
-import { createPivotIssue, reportPivotIssue, type PivotSourceRange } from '@smart/pivot-core'
+import { createPivotIssue, reportPivotIssue, type PivotSourceRange } from '@smartv/pivot-core'
 import { isValidSource, readRangeValues } from './UniverRangeReader'
 import type { UniverFacadeLike } from './UniverTypes'
 

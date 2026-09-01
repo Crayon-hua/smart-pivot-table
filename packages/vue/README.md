@@ -1,17 +1,17 @@
-# @smart/pivot-vue
+# @smartv/pivot-vue
 
 Vue 3 field panel for the pivot engine.
 
 ```bash
-pnpm add @smart/pivot-vue @smart/pivot-core vue
+pnpm add @smartv/pivot-vue @smartv/pivot-core vue
 ```
 
 `pinia` is optional and only needed if you use `usePivotStore`.
 
 ```vue
 <script setup lang="ts">
-import { PivotPanel } from '@smart/pivot-vue'
-import { PivotStore } from '@smart/pivot-core'
+import { PivotPanel } from '@smartv/pivot-vue'
+import { PivotStore } from '@smartv/pivot-core'
 </script>
 
 <template>

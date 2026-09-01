@@ -1,4 +1,4 @@
-import type { PivotFieldArea } from '@smart/pivot-core'
+import type { PivotFieldArea } from '@smartv/pivot-core'
 
 export const PIVOT_DRAG_MIME = 'application/x-smart-pivot'
 

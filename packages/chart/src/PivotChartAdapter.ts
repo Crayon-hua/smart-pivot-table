@@ -1,5 +1,5 @@
 import type { EChartsOption } from 'echarts'
-import type { PivotCell, PivotChartConfig, PivotChartType, PivotResult } from '@smart/pivot-core'
+import type { PivotCell, PivotChartConfig, PivotChartType, PivotResult } from '@smartv/pivot-core'
 
 function isPlottableRow(result: PivotResult, index: number): boolean {
   const label = result.rows[index] ?? ''

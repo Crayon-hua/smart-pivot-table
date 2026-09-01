@@ -1,9 +1,9 @@
-# @smart/pivot-table
+# @smartv/pivot-table
 
 Umbrella package: re-exports the pivot engine, Vue panel, ECharts chart, and Univer OSS adapter.
 
 ```bash
-pnpm add @smart/pivot-table vue
+pnpm add @smartv/pivot-table vue
 ```
 
 Install peers as needed:
@@ -19,7 +19,7 @@ import {
   PivotChart,
   UniverPivotPlugin,
   createPivotUniverSession,
-} from '@smart/pivot-table'
+} from '@smartv/pivot-table'
 ```
 
 ## License

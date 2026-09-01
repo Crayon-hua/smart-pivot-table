@@ -1,7 +1,7 @@
 {
-  "name": "@smart/pivot-univer",
+  "name": "@smartv/pivot-univer",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Univer OSS adapter: read selection, write pivot sheet, register commands.",
   "license": "Apache-2.0",
   "homepage": "https://github.com/Crayon-hua/smart-pivot-table",
@@ -36,11 +36,10 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "type-check": "tsc --noEmit -p tsconfig.json",
-    "prepublishOnly": "pnpm type-check && pnpm build",
-    "publish:only": "pnpm publish --access public --no-git-checks --no-provenance --registry=https://registry.npmjs.org"
+    "prepublishOnly": "pnpm type-check && pnpm build"
   },
   "dependencies": {
-    "@smart/pivot-core": "workspace:*"
+    "@smartv/pivot-core": "workspace:*"
   },
   "peerDependencies": {
     "@univerjs/core": ">=0.15.0"

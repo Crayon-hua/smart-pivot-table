@@ -13,7 +13,7 @@ import {
   type PivotChartType,
   type PivotUniverSession,
   type UniverFacadeLike,
-} from '@smart/pivot-table'
+} from '@smartv/pivot-table'
 import { createDemoWorkbookData } from './demo-data'
 
 const univerEl = ref<HTMLDivElement | null>(null)

@@ -1,7 +1,7 @@
 {
-  "name": "@smart/pivot-chart",
+  "name": "@smartv/pivot-chart",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ECharts pivot chart adapter and Vue component.",
   "license": "Apache-2.0",
   "homepage": "https://github.com/Crayon-hua/smart-pivot-table",
@@ -38,11 +38,10 @@
     "build": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.json",
     "test": "vitest run --config vitest.config.ts",
-    "prepublishOnly": "pnpm type-check && pnpm build",
-    "publish:only": "pnpm publish --access public --no-git-checks --no-provenance --registry=https://registry.npmjs.org"
+    "prepublishOnly": "pnpm type-check && pnpm build"
   },
   "dependencies": {
-    "@smart/pivot-core": "workspace:*"
+    "@smartv/pivot-core": "workspace:*"
   },
   "peerDependencies": {
     "echarts": "^6.0.0",

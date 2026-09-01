@@ -1,5 +1,5 @@
 import type { EChartsOption } from 'echarts'
-import type { PivotChartConfig, PivotResult } from '@smart/pivot-core'
+import type { PivotChartConfig, PivotResult } from '@smartv/pivot-core'
 import { PivotChartAdapter } from './PivotChartAdapter'
 
 export class PivotChartEngine {
